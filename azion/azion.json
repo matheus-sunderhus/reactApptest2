@@ -1,20 +1,37 @@
 {
-  "name": "reactApptest2-caneum",
-  "env": "stage",
+  "name": "reactApptest2",
+  "bucket": "reactApptest2",
+  "template": "react",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240423134138",
+  "function": {
+    "id": 45969,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 50346,
+    "instance-name": "__DEFAULT__"
+  },
   "application": {
-    "id": 1707419477,
-    "name": "reactApptest2-caneum"
+    "id": 1713874464,
+    "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1707412620,
-    "name": "reactApptest2-caneum",
-    "url": "n2s3r1932x.map.azionedge.net"
+    "id": 1713871606,
+    "name": "__DEFAULT__"
   },
-  "function": {
-    "id": 41608,
-    "name": "reactApptest2-caneum"
+  "rt-purge": {
+    "purge_on_publish": true
   },
-  "version-id": "20240208164118",
-  "type": "react",
-  "mode": "deliver"
+  "origin": {
+    "single-origin-id": 0,
+    "storage-origin-id": 0,
+    "storage-origin-key": "",
+    "name": "__DEFAULT__",
+    "address": null
+  },
+  "rules-engine": {
+    "created": true
+  }
 }
