@@ -1,24 +1,24 @@
 {
-  "name": "reactappnameuuid",
-  "bucket": "reactappnameuuid",
+  "name": "reactApptest2ABC123testlllllllllll",
+  "bucket": "reactApptest2ABC123testlllllllllll",
   "template": "react",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423165916",
+  "prefix": "20240423171947",
   "function": {
-    "id": 45975,
+    "id": 45976,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50352,
+    "instance-id": 50353,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713894470,
+    "id": 1713894473,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713891612,
+    "id": 1713891613,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
