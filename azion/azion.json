@@ -1,37 +1,58 @@
 {
-  "name": "reactApptest2rrrrrrr",
-  "bucket": "reactApptest2rrrrrrr",
-  "template": "react",
+  "name": "reactApptest2bbbbbBBBBBB",
+  "bucket": "reactApptest2bbbbbBBBBBB",
+  "preset": "react",
   "mode": "deliver",
   "env": "production",
-  "prefix": "20240423182545",
+  "prefix": "20240423191332",
+  "not-first-run": true,
   "function": {
-    "id": 45979,
+    "id": 20626,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 50356,
+    "instance-id": 20268,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1713894481,
+    "id": 1713899045,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1713891617,
+    "id": 1713897722,
     "name": "__DEFAULT__"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
-  "origin": {
-    "single-origin-id": 0,
-    "storage-origin-id": 0,
-    "storage-origin-key": "",
-    "name": "__DEFAULT__",
-    "address": null
-  },
+  "origin": [
+    {
+      "origin-id": 126890,
+      "origin-key": "e967adec-e659-41ca-a2b9-8dd0b7a0342f",
+      "name": "reactApptest2bbbbbBBBBBB_single"
+    },
+    {
+      "origin-id": 126891,
+      "origin-key": "5e157794-e727-4dad-acb2-e43fda88c979",
+      "name": "origin-storage-default"
+    }
+  ],
   "rules-engine": {
-    "created": true
-  }
+    "created": false,
+    "rules": [
+      {
+        "id": 237811,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 237812,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 237813,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
 }
